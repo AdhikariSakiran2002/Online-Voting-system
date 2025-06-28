@@ -8,6 +8,7 @@ import requests
 from datetime import datetime
 from typing import Dict, Any
 
+---------------------------------
 # ========== CONFIG ==========
 CLOUD_REGION = "us-east-1"
 DEPLOY_DURATION_MINUTES = 10
