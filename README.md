@@ -4,3 +4,7 @@ In workplaces, more than a million new pages of data are created every minute of
 •	Interfaces for casting votes. These include touch screens, optical mark recognition (OMR) ballot papers that are fed into a scanner, touch-sensitive tablets, push buttons, web pages or special client software for Internet voting.
 •	Special interfaces for handicapped voters. These include Braille or audio input devices for the blind, easier access for voters with physical disabilities, and simpler interfaces for illiterate voters.
 
+
+
+
+abhcxjguydshfkjdwnfckjdgfcdabfkdbfchdagfcjhdbfcnmdb
