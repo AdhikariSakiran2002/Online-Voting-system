@@ -1,10 +1,12 @@
-import subprocess as sb_p
-import tkinter as tk
-import registerVoter as regV
+
+
 import admFunc as adFunc
 from tkinter import *
 from registerVoter import *
 from admFunc import *
+import subprocess as sb_p
+import tkinter as tk
+import registerVoter as regV
 
 
 def AdminHome(root,frame1,frame3):
