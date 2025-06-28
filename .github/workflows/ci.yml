@@ -1,0 +1,22 @@
+name: Basic CI
+
+# Trigger on pushes to main branch and on PRs targeting main
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch: # allows manual trigger
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Run a test command
+        run: echo "✅ This is a basic CI workflow triggered!"
