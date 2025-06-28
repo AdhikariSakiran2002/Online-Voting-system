@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 # -----------------------------
 load_dotenv()
 
-GITHUB_TOKEN = "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"
+GITHUB_TOKEN = "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"
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 REPO = os.getenv("REPO")
 openai.api_key = OPENAI_API_KEY
