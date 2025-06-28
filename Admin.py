@@ -8,7 +8,7 @@ import subprocess as sb_p
 import tkinter as tk
 import registerVoter as regV
 
-
+------------------------------------------------
 def AdminHome(root,frame1,frame3):
     root.title("Admin")
     for widget in frame1.winfo_children():
