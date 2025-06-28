@@ -5,7 +5,7 @@ from threading import Thread
 from dframe import *
 
 lock = threading.Lock()
-
+------------------------------------------------
 def client_thread(connection):
 
     data = connection.recv(1024)     #receiving voter details            #2
