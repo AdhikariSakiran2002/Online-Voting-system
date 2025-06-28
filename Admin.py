@@ -14,8 +14,8 @@ def AdminHome(root,frame1,frame3):
     for widget in frame1.winfo_children():
         widget.destroy()
 
-    Button(frame3, text="Admin", command = lambda: AdminHome(root, frame1, frame3)).grid(row = 1, column = 0)
-    frame3.pack(side=TOP)
+    # Button(frame3, text="Admin", command = lambda: AdminHome(root, frame1, frame3)).grid(row = 1, column = 0)
+     #frame3.pack(side=TOP)
 
     Label(frame1, text="Admin", font=('Helvetica', 25, 'bold')).grid(row = 0, column = 1)
     Label(frame1, text="").grid(row = 1,column = 0)
