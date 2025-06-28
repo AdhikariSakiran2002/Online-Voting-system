@@ -74,9 +74,9 @@ def AdmLogin(root,frame1):
     e2 = Entry(frame1, textvariable = password, show = '*')
     e2.grid(row = 3,column = 2)
 
-    sub = Button(frame1, text="Login", width=10, command = lambda: log_admin(root, frame1, admin_ID.get(), password.get()))
-    Label(frame1, text="").grid(row = 4,column = 0)
-    sub.grid(row = 5, column = 3, columnspan = 2)
+    #sub = Button(frame1, text="Login", width=10, command = lambda: log_admin(root, frame1, admin_ID.get(), password.get()))
+    #Label(frame1, text="").grid(row = 4,column = 0)
+    #sub.grid(row = 5, column = 3, columnspan = 2)
 
     frame1.pack()
     root.mainloop()
